@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link rel="stylesheet" href="../cart/style.css">
+
+    <link rel="stylesheet" href="../home/home.css">
+    <link rel="stylesheet" href="./product.css">
+</head>
+
+<body>
+    <header>
+        <a href="../home/home.html"><img src="../../images/logo.jpg" height="95px" alt="logo" /></a>
+        <ul>
+            <li><a href="../home/home.html">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="../../index.html">log in/register</a></li>
+            <li><a id="user"></a></li>
+            <script>
+                let id = document.querySelector('#user')
+                id.innerHTML = sessionStorage.getItem("user-email") ? `WELCOME<br/>${sessionStorage.getItem("user-email")}` : "WELCOME"
+            </script>
+            <li class="cart-icon" onclick="openCart()">
+                <img src="../imgs/x.svg" />
+                <span class="badge"></span>
+                <div class="carts-items">
+                    <div></div>
+                    <button class="btn-go-cart"><a href="../cart/cart.html">View
+                            Products</a></button>
+                </div>
+            </li>
+        </ul>
+    </header>
+    <!-- <ul>
+        <li class="cart-icon" onclick="openCart()">
+            <img src="../cart/imgs/x.svg" />
+            <span class="badge"></span>
+            <div class="carts-items">
+                <div></div>
+                <button class="btn-go-cart"><a href="../cart/cart.html">View Products</a></button>
+            </div>
+        </li>
+    </ul> -->
+    <div class="continer">
+        <i id="prev" class="fa-solid fa-arrow-left"></i>
+        <div id="product"></div>
+        <i id="next" class="fa-solid fa-arrow-right"></i>
+    </div>
+    <footer>
+        <p>copyright &copy; by ITI track full stack MEARN team 3</p>
+    </footer>
+    <script src="./product.js"></script>
+    <script src="../home/home.js"></script>
+
+
+
+    <!-- <div id="product" class="product-card"></div> -->
+
+
+    <!-- <script>
+      let productcard = document.getElementById("product");
+
+      let product = JSON.parse(localStorage.getItem("selectedProduct"));
+
+      if (product) {
+          productcard.innerHTML = `
+              <img src="${product.imgs}" >
+              <h2>${product.title}</h2>
+              <p>${product.description}</p>
+              <p>Price: <span class="bold">${product.price}</span></p>
+              <button>Add to cart</button>
+          `;
+      } else {
+          productcard.innerHTML = "<p>No product selected</p>";
+      }
+  </script> -->
+
+    <!-- <script>
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        let productId = getQueryParam("id");
+
+        let productcard = document.getElementById("product");
+
+        let xhr = new XMLHttpRequest();
+        xhr.open("GET", "./product.json");
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                let response = JSON.parse(xhr.responseText);
+                let products = response.product;
+                let product = products.find(p => p.id == productId);
+
+                if (product) {
+                    productcard.innerHTML = `
+                        <img src="${product.img}" >
+                        <h2>${product.title}</h2>
+                        <p>${product.description}</p>
+                        <p>Price: <span class="bold">${product.price}</span></p>
+                        <button>Add to cart</button>
+                    `;
+                } else {
+                    productcard.innerHTML = "<p>No product found</p>";
+                }
+            }
+        };
+        xhr.send();
+    </script> -->
+
+
+    <script src="https://kit.fontawesome.com/042890536d.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./home.css" />
+  </head>
+  <body>
+    <body>
+      <!-- header -->
+      <header>
+        <a href="#"><img src="../../images/logo.jpg" height="95px" alt="logo" /></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="../products/product.html">Products</a></li>
+          <li><a href="../../index.html">log in/register</a></li>
+          <li><a id="user"></a></li>
+          <script>
+            let id = document.querySelector('#user')
+            id.innerHTML = sessionStorage.getItem("user-email")? `WELCOME<br/>${sessionStorage.getItem("user-email")}` :"WELCOME"
+          </script>
+          <li class="cart-icon" onclick="openCart()">
+            <img src="../imgs/x.svg" />
+            <span class="badge"></span>
+            <div class="carts-items">
+              <div></div>
+              <button class="btn-go-cart">
+                <a href="../cart/cart.html">View Products</a>
+              </button>
+            </div>
+          </li>
+        </ul>
+      </header>
+      <div id="mainDiv"></div>
+      <!-- footer -->
+      <footer>
+        <p>copyright &copy; by ITI track full stack MEARN team 3</p>
+      </footer>
+    </body>
+    <script src="./home.js"></script>
+  </body>
+</html>

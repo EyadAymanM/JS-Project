@@ -1,0 +1,184 @@
+{
+          "product": [
+                    {
+                              "id": 1,
+                              "title": "Spiro Spathis",
+                              "description": "A refreshing carbonated drink, perfect for quenching your thirst.",
+                              "gategory": "drinks",
+                              "img": "../imgs/photo/spero.jpeg",
+                              "price": 8,
+                              "quantity": 1
+                    },
+                    {
+                              "id": 2,
+                              "title": "v7",
+                              "description": "A refreshing soda drink with a crisp and fizzy taste, perfect for any occasion.",
+                              "gategory": "drinks",
+                              "img": "../imgs/photo/v7.jpeg",
+                              "price": 15,
+                              "quantity": 1
+                    },
+                    {
+                              "id": 3,
+                              "title": "Dina Farms",
+                              "description": "Natural juices made from fresh fruits, offering a healthy and refreshing beverage option.",
+                              "gategory": "drinks",
+                              "img": "../imgs/photo/dina.jpg",
+                              "price": 20,
+                              "quantity": 1
+                    },
+                    {
+                              "id": 4,
+                              "title": "aqua delta",
+                              "description": "Pure and clean bottled water for your hydration needs.",
+                              "gategory": "drinks",
+                              "img": "../imgs/photo/aqua.jpeg",
+                              "price": 8,
+                              "quantity": 1
+                    },
+                    {
+                              "id": 5,
+                              "title": "Juhayna",
+                              "description": "Delicious and nutritious fruit juice from Juhayna.",
+                              "gategory": "drinks",
+                              "img": "../imgs/photo/gohana.jpeg",
+                              "price": 6,
+                              "quantity": 1
+                    },
+                    {
+                              "id": 6,
+                              "title": "Tiger",
+                              "description": "Crispy and spicy chips to satisfy your snack cravings.",
+                              "gategory": "chips&Snacks",
+                              "img": "../imgs/photo/tiger.jpeg",
+                              "price": 5,
+                              "quantity": 1
+                    },
+                    {
+                              "id": 7,
+                              "title": "Fox",
+                              "description": "Savory and crunchy chips, perfect for any time snack.",
+                              "gategory": "chips&Snacks",
+                              "img": "../imgs/photo/fox.jpeg",
+                              "price": 5,
+                              "quantity": 1
+                    },
+                    {
+                              "id": 8,
+                              "title": "Bravo",
+                              "description": "Flavorful chips that will leave you wanting more.",
+                              "gategory": "chips&Snacks",
+                              "img": "../imgs/photo/bravo.jpeg",
+                              "price": 5,
+                              "quantity": 1
+                    },
+                    {
+                              "id": 9,
+                              "title": "Carlito",
+                              "description": "Tasty and crispy chips for a delightful snack experience.",
+                              "gategory": "chips&Snacks",
+                              "img": "../imgs/photo/cartilo.jpeg",
+                              "price": 5,
+                              "quantity": 1
+                    },
+                    {
+                              "id": 10,
+                              "title": "Big chips",
+                              "description": "Large and crunchy chips for sharing with friends and family.",
+                              "gategory": "chips&Snacks",
+                              "img": "../imgs/photo/images (1).jpeg",
+                              "price": 5,
+                              "quantity": 1
+                    },
+                    {
+                              "id": 11,
+                              "title": "Despacito",
+                              "description": "Luxury chocolate with a rich and smooth taste.",
+                              "gategory": " chocolate&cookies",
+                              "img": "../imgs/photo/desbasuto.jpeg",
+                              "price": 80,
+                              "quantity": 1
+                    },
+                    {
+                              "id": 12,
+                              "title": "Corona",
+                              "description": "Classic chocolate bar with a creamy texture.",
+                              "gategory": " chocolate&cookies",
+                              "img": "../imgs/photo/corona.jpeg",
+                              "price": 35,
+                              "quantity": 1
+                    },
+                    {
+                              "id": 13,
+                              "title": "Dreem",
+                              "description": "Premium chocolate for the ultimate indulgence.",
+                              "gategory": " chocolate&cookies",
+                              "img": "../imgs/photo/dreem.jpeg",
+                              "price": 90,
+                              "quantity": 1
+                    },
+                    {
+                              "id": 14,
+                              "title": "Mega",
+                              "description": "Chocolate-covered biscuits with a crispy texture and rich chocolate flavor.",
+                              "gategory": " chocolate&cookies",
+                              "img": "../imgs/photo/mega.jpeg",
+                              "price": 2,
+                              "quantity": 1
+                    },
+                    {
+                              "id": 15,
+                              "title": "Ulker",
+                              "description": "Delicious date cookies, combining a crispy exterior with a sweet and soft date filling.",
+                              "gategory": " chocolate&cookies",
+                              "img": "../imgs/photo/ulker.jpeg",
+                              "price": 5,
+                              "quantity": 1
+                    },
+                    {
+                              "id": 16,
+                              "title": "Metco burger",
+                              "description": "Juicy and flavorful burger patties ready to cook.",
+                              "gategory": " Freezers",
+                              "img": "../imgs/photo/metco.jpeg",
+                              "price": 235,
+                              "quantity": 1
+                    },
+                    {
+                              "id": 17,
+                              "title": " Halwani strips",
+                              "description": "Tender and tasty chicken strips for quick meals.",
+                              "gategory": " Freezers",
+                              "img": "../imgs/photo/halowiny.jpeg",
+                              "price": 240,
+                              "quantity": 1
+                    },
+                    {
+                              "id": 18,
+                              "title": "shahd Nuggets",
+                              "description": "Crispy chicken nuggets loved by kids and adults alike.",
+                              "gategory": " Freezers",
+                              "img": "../imgs/photo/shahd.jpeg",
+                              "price": 100,
+                              "quantity": 1
+                    },
+                    {
+                              "id": 19,
+                              "title": "Mamma's Choice",
+                              "description": "Frozen French fries, crispy and delicious, perfect as a side dish or a quick snack.",
+                              "gategory": " Freezers",
+                              "img": "../imgs/photo/mammy's.jpg",
+                              "price": 92,
+                              "quantity": 1
+                    },
+                    {
+                              "id": 20,
+                              "title": "kofta fresh farm",
+                              "description": "Authentic kofta perfect for grilling or frying.",
+                              "gategory": " Freezers",
+                              "img": "../imgs/photo/farm.webp",
+                              "price": 160,
+                              "quantity": 1
+                    }
+          ]
+}

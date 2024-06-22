@@ -1,0 +1,93 @@
+
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+html{
+          font-size: 20px;
+}
+
+.cart-container{
+          width: 70%;
+          margin: 30px auto;
+}
+.header{
+          padding: 30px 50px;
+          height: 90px;
+
+}
+.header img{
+          width: 50px;
+          height: 50px;
+          float: right;
+          
+
+}
+.cart-header{
+          width: 100%;
+          border-bottom: 1px solid #b5b3b3;
+}
+ul{
+          list-style: none;
+}
+li{
+          display: inline-block;
+          padding: 10px 0px;
+          width: 22%;
+}
+
+.remove{
+          text-align: right;
+          width: 8%;
+} 
+
+.cart-content{
+          display: inline-block;
+          width: 100%;
+          border-bottom: 1px solid darkgray;
+}
+.image-container{
+          display: inline-block;
+          width: 22%;
+          padding-right: 15px;
+          padding-top: 15px;
+}
+.image-container img{
+          width: 100%;
+          height: 200px;
+}
+.name,
+.quantity,
+.price,
+.remove-button{
+          display: inline-block;
+          width: 22.5%;
+          position: relative;
+          top: -70px;
+}
+.name{
+}
+.arrow{
+          display: inline-block;
+          padding: 10px;
+          cursor: pointer;
+
+}
+.value{
+}
+.price{
+          padding: 10px;
+}
+
+.remove-button{
+          width: 8%;
+          text-align: right;
+          cursor: pointer;
+          padding-right: 10px;
+}
+
+.total{
+          text-align: center;
+          padding-top: 20px;
+}

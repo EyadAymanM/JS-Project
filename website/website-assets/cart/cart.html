@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="../home/home.css">
+    <link rel="stylesheet" href="./cart.css">
+</head>
+
+<body>
+
+    <body>
+        <header>
+        <a href="../home/home.html"><img src="../../images/logo.jpg" height="95px" alt="logo" /></a>
+            <ul>
+                <li><a href="../home/home.html">Home</a></li>
+                <li><a href="../products/product.html">Products</a></li>
+                <li><a href="../../index.html">log in/register</a></li>
+                <li><a id="user"></a></li>
+                <script>
+                    let id = document.querySelector('#user')
+                    id.innerHTML = sessionStorage.getItem("user-email") ? `WELCOME<br/>${sessionStorage.getItem("user-email")}` : "WELCOME"
+                </script>
+                <li class="cart-icon" onclick="openCart()">
+                    <img src="../imgs/x.svg" />
+                    <span class="badge"></span>
+                    <div class="carts-items">
+                        <div></div>
+                        <button class="btn-go-cart"><a href="../cart/cart.html">View
+                                Products</a></button>
+                    </div>
+                </li>
+            </ul>
+        </header>
+
+        <div class="cart-container" id="main">
+            <div class="cart-header">
+                <ul>
+                    <li class="">Product</li>
+                    <li class="">Name</li>
+                    <li class="">Quantity</li>
+                    <li class="">Price</li>
+                    <li class="remove">Remove</li>
+                </ul>
+            </div>
+            <div class="cart-content" id="cart-content"></div>
+        </div>
+        <footer>
+            <p>copyright &copy; by ITI track full stack MEARN team 3</p>
+        </footer>
+
+        <script src="./cart.js"></script>
+        <script src="../home/home.js"></script>
+    </body>
+</body>
+
+</html>
